@@ -1,0 +1,5 @@
+scikit-learn==1.1.1
+streamlit==1.11.1
+numpy==1.23.1
+pandas==1.4.3
+altair==4.2.2

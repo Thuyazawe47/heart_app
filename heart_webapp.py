@@ -9,10 +9,10 @@ st.title("Disease Classification")
 def get_model():
     return joblib.load('heart_knn_model.joblib')
 
-cp=st.text_input("Enter cp:","")
-thalach=st.text_input("Enter thalach:","")
-exang=st.text_input("Enter exang:","")
-oldpeak=st.text_input("Enter oldpeak:","")
+cp=st.text_input("Enter cp:0to3","")
+thalach=st.text_input("Enter thalach:71to202","")
+exang=st.text_input("Enter exang:0to1","")
+oldpeak=st.text_input("Enter oldpeak:0.0to6.2","")
 
 if st.button("Check Disease"):
     values=[cp,thalach,exang,oldpeak]
